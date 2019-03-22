@@ -1,4 +1,4 @@
-/****** BASE STYLES ******/
+/***** BASE STYLES *****/
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -6,10 +6,10 @@ body {
 }
 
 #about, #work, #contact {
-    height: 600px;
+    height: 600px; 
 }
 
-/****** GRID ******/
+/***** GRID *****/
 
 .full-width {
     width: 1200px;
@@ -24,11 +24,11 @@ body {
     float: left;
 }
 
-/****** HEADER ******/
+/***** HEADER *****/
 
 header {
     height: 800px;
-    background: url('../img/hero.png');
+    bachground: url(/img/hero.png);
     background-size: cover;
 }
 
@@ -56,7 +56,7 @@ header h2 {
     width: 1000px;
     clear: both;
     font-family: 'Lora', serif;
-    font-size: 72px;
+    font-size: 72 px;
     line-height: 80px;
     color: #9b9b9b;
     padding: 20px 0 20px 25px;
@@ -65,7 +65,7 @@ header h2 span {
     color: #2b2b2b;
 }
 
-/****** ABOUT ******/
+/***** ABOUT *****/
 
 #about .full-width {
     padding: 80px 0;
@@ -84,7 +84,7 @@ header h2 span {
     padding-right: 50px;
 }
 
-/****** WORK ******/
+/***** WORK *****/
 
 #work {
     background-color: #f9ceb7;
@@ -92,7 +92,7 @@ header h2 span {
 }
 
 #work .full-width {
-    padding: 115px 0;
+    padding 115px 0;
 }
 
 #work img {
@@ -113,17 +113,17 @@ header h2 span {
     padding: 0 50px;
 }
 
-/****** CONTACT ******/
+/***** CONTACT *****/
 
 #contact {
     background-color: #ebebeb;
 }
 #contact .full-width {
-    padding: 110px 0;
+    padding 110px 0;
 }
-#contact img#contact-img {
-    margin-left: 25px;
-    border: 12px solid #ffffff;
+#contact img {
+    margin-left: 115px;
+    border: 12px solid #fffff;
 }
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
@@ -136,7 +136,7 @@ header h2 span {
     font-size: 36px;
     line-height: 44px;
 }
-#contact #email-header{
+#contact #email-header {
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -158,7 +158,7 @@ header h2 span {
     list-style: none;
 }
 #contact ul li {
-     display: inline-block;
+    display: inline-block;
 }
 #contact ul img {
     font-size: 32px;
